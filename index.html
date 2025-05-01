@@ -177,7 +177,7 @@
                                 <h3>Wen Sheng</h3>
 
                                 <p>
-                                    Engineer by day, Hobbyjogger by night.
+                                    Engineer by day, Hobbyjogger by night. </br>
                                     Alena's favourite person.
                                 </p>
                             </div>
@@ -196,7 +196,7 @@
                                 <h3>Alena</h3>
 
                                 <p>
-                                    Serious foodie, gets paid to create models to rank the best food.
+                                    Serious foodie, gets paid to create models to rank the best food. </br>
                                     Ws' bff.
                                 </p>
                             </div>
@@ -474,94 +474,104 @@
                 </div>
             </section>
 
-            <!-- Section Our-story -->
+            <!-- Section Video invitation -->
 
-            <section id="couple-story" class="section couple-story section-gray">
+            <section id="invitation" class="section invitation section-gray">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center heading">
-                            <span>We Love Each Other</span>
-
-                            <h2>Our story</h2>
+                            <h2>RSVP</h2>
 
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam
+                                labore et dolore magna aliqua. Ut enim ad minim veniam
                             </p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-12">
-                            <ul class="timeline">
-                                <li class="timeline-item animate-box animation">
-                                    <div class="timeline-badge">
-                                        <img src="images/story-1.jpg" alt="">
+                        <div class="col-12 col-md-6">
+                            <div class="form-wrapper">
+                                <form action="form.php" id="contact-form" class="form-horizontal" method="post">
+                                    <h3 class="invitation_heading">Will you be attending the wedding?</h3>
+
+                                    <div class="row">
+                                        <div class="form-field switch-field col-12">
+                                            <input type="radio" name="rdo" id="yes" value="Yes">
+
+                                            <input type="radio" name="rdo" id="no" value="No">
+
+                                            <div class="switch">
+                                                <label for="yes">Yes</label>
+
+                                                <label for="no">No</label>
+
+                                                <span></span>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3 class="timeline-title">First We Meet</h3>
+                                    <div class="row">
+                                        <div id="name-field" class="form-field col-6">
+                                            <input type="text" class="form-control" id="form-name" name="form-name" required>
 
-                                            <span class="date">January 2, 2009</span>
+                                            <label for="form-name" class="control-label">Your name*</label>
                                         </div>
 
-                                        <div class="timeline-body">
-                                            <p>
-                                                Classmates of M09103
-                                            </p>
+                                        <div id="email-field" class="form-field col-6">
+                                            <input type="email" class="form-control" id="form-email" name="form-email" required>
+
+                                            <label for="form-email" class="control-label">Email*</label>
                                         </div>
-
-                                        <a href="single-post.html" class="timeline-readmore">Readmore</a>
-                                    </div>
-                                </li>
-
-                                <li class="timeline-item animate-box animation">
-                                    <div class="timeline-badge">
-                                        <img src="images/story-2.jpg" alt="">
                                     </div>
 
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3 class="timeline-title">First Date</h3>
+                                    <h3 class="invitation_heading">Who else is comming with you?</h3>
 
-                                            <span class="date">December 28, 2015</span>
+                                    <div class="row">
+                                        <div id="guest-name-field" class="form-field col-sm-8">
+                                            <input type="text" class="form-control" id="form-guest-name" name="form-name">
+
+                                            <label for="form-guest-name" class="control-label">Guest name</label>
                                         </div>
 
-                                        <div class="timeline-body">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                            </p>
+                                        <div class="form-field col-sm-4 text-center">
+                                            <button type="button" class="btn btn-outline-dark w-100 add-button">Add guest</button>
                                         </div>
-
-                                        <a href="single-post.html" class="timeline-readmore">Readmore</a>
-                                    </div>
-                                </li>
-
-                                <li class="timeline-item animate-box animation">
-                                    <div class="timeline-badge">
-                                        <img src="images/story-3.jpg" alt="">
                                     </div>
 
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3 class="timeline-title">In A Relationship</h3>
-
-                                            <span class="date">January 1, 2016</span>
-                                        </div>
-
-                                        <div class="timeline-body">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                            </p>
-                                        </div>
-
-                                        <a href="single-post.html" class="timeline-readmore">Readmore</a>
+                                    <div class="row">
+                                        <div class="guest-list form-field col-12"></div>
                                     </div>
-                                </li>
-                            </ul>
+
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn btn-primary btn-lg send-button">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="video bg">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="popup-youtube">
+                                    <i class="fa-brands fa-youtube fa-4x"></i>
+                                </a>
+
+                                <div class="overlay"></div>
+
+                                <!-- Modal -->
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="500" src="https://www.youtube.com/embed/KPi8uXHRfYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -710,6 +720,94 @@
                 </div>
             </section>
 
+            <!-- Section Our-story -->
+
+            <section id="couple-story" class="section couple-story section-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center heading">
+                            <span>We Love Each Other</span>
+
+                            <h2>Our story</h2>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="timeline">
+                                <li class="timeline-item animate-box animation">
+                                    <div class="timeline-badge">
+                                        <img src="images/story-1.jpg" alt="">
+                                    </div>
+
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">First We Meet</h3>
+
+                                            <span class="date">January 2, 2009</span>
+                                        </div>
+
+                                        <div class="timeline-body">
+                                            <p>
+                                                Classmates of M09103, became the best of friends
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="timeline-item animate-box animation">
+                                    <div class="timeline-badge">
+                                        <img src="images/story-2.jpg" alt="">
+                                    </div>
+
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">In a relationship</h3>
+
+                                            <span class="date">April 17, 2014</span>
+                                        </div>
+
+                                        <div class="timeline-body">
+                                            <p>
+                                                Spent our best years together eating yummy food and achieving our goals
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="timeline-item animate-box animation">
+                                    <div class="timeline-badge">
+                                        <img src="images/story-3.jpg" alt="">
+                                    </div>
+
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">She said yes!</h3>
+
+                                            <span class="date">May 17, 2024</span>
+                                        </div>
+
+                                        <div class="timeline-body">
+                                            <p>
+                                                To a lifetime of love, friendship, growth and adventures
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             <!-- Section Testimonials -->
             <!--
             <section id="testimonials" class="section testimonials">
@@ -793,108 +891,6 @@
             </section>
             -->
 
-            <!-- Section Video invitation -->
-
-            <section id="invitation" class="section invitation section-gray">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center heading">
-                            <h2>Video invitation</h2>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="form-wrapper">
-                                <form action="form.php" id="contact-form" class="form-horizontal" method="post">
-                                    <h3 class="invitation_heading">Will you be attending the wedding?</h3>
-
-                                    <div class="row">
-                                        <div class="form-field switch-field col-12">
-                                            <input type="radio" name="rdo" id="yes" value="Yes">
-
-                                            <input type="radio" name="rdo" id="no" value="No">
-
-                                            <div class="switch">
-                                                <label for="yes">Yes</label>
-
-                                                <label for="no">No</label>
-
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div id="name-field" class="form-field col-6">
-                                            <input type="text" class="form-control" id="form-name" name="form-name" required>
-
-                                            <label for="form-name" class="control-label">Your name*</label>
-                                        </div>
-
-                                        <div id="email-field" class="form-field col-6">
-                                            <input type="email" class="form-control" id="form-email" name="form-email" required>
-
-                                            <label for="form-email" class="control-label">Email*</label>
-                                        </div>
-                                    </div>
-
-                                    <h3 class="invitation_heading">Who else is comming with you?</h3>
-
-                                    <div class="row">
-                                        <div id="guest-name-field" class="form-field col-sm-8">
-                                            <input type="text" class="form-control" id="form-guest-name" name="form-name">
-
-                                            <label for="form-guest-name" class="control-label">Guest name</label>
-                                        </div>
-
-                                        <div class="form-field col-sm-4 text-center">
-                                            <button type="button" class="btn btn-outline-dark w-100 add-button">Add guest</button>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="guest-list form-field col-12"></div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-12 text-center">
-                                            <button type="submit" class="btn btn-primary btn-lg send-button">Submit</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6">
-                            <div class="video bg">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="popup-youtube">
-                                    <i class="fa-brands fa-youtube fa-4x"></i>
-                                </a>
-
-                                <div class="overlay"></div>
-
-                                <!-- Modal -->
-
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-body">
-                                                <iframe width="100%" height="500" src="https://www.youtube.com/embed/KPi8uXHRfYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <!-- Section banner-bottom -->
 
