@@ -13652,7 +13652,7 @@ img {
   background: #000;
 }
 .navbar-brand {
-  color: #fff;
+  color: #000;
   font-family: "Great Vibes", cursive;
 }
 .navbar .offcanvas-title {
@@ -13664,12 +13664,12 @@ img {
 }
 @media (min-width: 768px) {
   .navbar .nav-link {
-    color: #fff;
+    color: #000;
   }
 }
 @media (min-width: 768px) {
   .navbar .nav-link.active {
-    color: #fff;
+    color: #000;
   }
 }
 .navbar .nav-link.active::after {
@@ -13688,11 +13688,11 @@ img {
 }
 @media (min-width: 992px) {
   .navbar .nav-link.active::after {
-    background: #fff;
+    background: #000;
   }
 }
 .navbar .navbar-toggler {
-  color: #fff;
+  color: #000;
   border: none;
 }
 .navbar .navbar-toggler:active, .navbar .navbar-toggler:focus {
@@ -13765,6 +13765,28 @@ img {
 }
 .banner-text_names::after {
   right: -1px;
+}
+.banner-text_city {
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
+}
+.banner-text_city::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  background-color: #fff;
+}
+.banner-text_city::after {
+  right: -1px;
+}
+.banner-text_date {
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
 }
 .banner-text span {
   padding: 0 15px;
