@@ -13956,7 +13956,7 @@ img {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: space-around;
 }
 .timer .timer-item_text {
   color: #fff;
@@ -13977,14 +13977,14 @@ img {
 .timer .timer-item .smalltext,
 .timer .timer-item .digit {
   display: block;
-  color: #45718f;
+  color: #fff;
 }
 .timer .timer-item .digit {
-  font-size: 47px;
-  line-height: 40px;
+  font-size: 50px;
+  line-height: 45px;
 }
 .timer .timer-item .smalltext {
-  color: #45718f;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
