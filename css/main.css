@@ -270,6 +270,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 14px;
 }
 
 abbr[title] {
@@ -13446,7 +13447,7 @@ textarea.form-control-lg {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: #000;
   background: #fff;
@@ -13522,7 +13523,7 @@ body.offcanvas {
   color: #000;
 }
 .heading p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
@@ -14045,6 +14046,8 @@ img {
 }
 .events-accordion .panel-place {
   padding: 5px 15px 0;
+  color: dimgrey;
+  font-weight: bold;
 }
 
 /* Timeline */
