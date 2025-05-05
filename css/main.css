@@ -13727,6 +13727,14 @@ img {
   padding: 10em 0 3em;
   background-image: url("../images/banner-bottom.jpg");
 }
+.banner_top_rsvp {
+  background-image: url("../images/header-bg-rsvp.jpg");
+  padding: 13em;
+}
+.banner_bottom_rsvp {
+    padding: 10em 0 3em;
+    background-image: url("../images/banner-bottom-rsvp.jpg");
+}
 .banner_bottom h2, .banner_bottom .h2 {
   margin: 0;
   font-family: "Great Vibes", cursive;
